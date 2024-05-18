@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 
@@ -44,4 +45,19 @@
 }
 .navbar a:hover{
     background-color: rgb(225, 225, 225);
+}
+.content{
+    padding: 3rem 8rem 0;
+}
+.content h2{
+    font-size: 5rem;
+}
+.content p {
+    font-size: 1.5rem;
+}
+[data-tab-content]{
+    display: none;
+}
+.active[data-tab-content]{
+    display: block;
 }

@@ -3,3 +3,45 @@
     padding: 0;
     
 }
+
+.header{
+    width: 100vw;
+}
+
+.title h1{
+    font-size: 2.7rem;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem ;
+    border-bottom: 3px solid black;
+}
+.navbar{
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 29px;
+    list-style: none;
+
+}
+.navbar li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 7px;
+}
+.navbar a:hover{
+    background-color: rgb(225, 225, 225);
+}
